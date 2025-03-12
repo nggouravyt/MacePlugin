@@ -1,0 +1,12 @@
+name: MacePlugin
+version: 1.0
+main: com.example.maceplugin.MacePlugin
+api-version: 1.21.4
+commands:
+  giveMace:
+    description: Gives a mace to a player.
+    usage: /<command>
+permissions:
+  maceplugin.use:
+    description: Allows using the mace plugin.
+    default: true
